@@ -1,8 +1,8 @@
 <script>
   import { Route } from "tinro";
-  import Home from "./components/home.svelte";
-  import About from "./components/about.svelte";
-  import Navigation from "./components/navigation.svelte";
+  import Home from "./lib/Home.svelte";
+  import About from "./lib/About.svelte";
+  import Navigation from "./lib/Navigation.svelte";
 </script>
 
 <main>

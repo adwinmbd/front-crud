@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
-  import Table from "./table.svelte";
-  import Form from "./form.svelte";
+  import Table from "./Table.svelte";
+  import Form from "./Form.svelte";
 
   let todos = [];
 

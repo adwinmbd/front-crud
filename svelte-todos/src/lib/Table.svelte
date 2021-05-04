@@ -1,5 +1,5 @@
 <script>
-  import Spinner from "./spinner.svelte";
+  import Spinner from "./Spinner.svelte";
   import { createEventDispatcher } from "svelte";
 
   const dispatch = createEventDispatcher();
@@ -28,7 +28,8 @@
           <td class="pull-right">
             <button
               on:click|preventDefault={triggerUpdate(todo)}
-              class="button icon-only">
+              class="button icon-only"
+            >
               <img
                 height="18"
                 width="18"
@@ -38,7 +39,8 @@
             </button>
             <button
               on:click|preventDefault={triggerDelete(todo)}
-              class="button error icon-only">
+              class="button error icon-only"
+            >
               <img
                 height="18"
                 width="18"
